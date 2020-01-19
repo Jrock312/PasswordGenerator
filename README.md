@@ -6,3 +6,4 @@ and this application will allow you to do that.
 
 You can create a unique password with containing and upper and lowercase as well and numbers and special characters.
 
+![Image description](https://raw.githubusercontent.com/Jrock312/PasswordGenerator/master/preview.jpg)
