@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    
+    
+    <div class="container">
+        <div class="col-md-8">
+
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="#!">Generate a Passcode</a>
+              </nav>
+        <hr>
+    <form name="pgenerate">
+        <div class="input-group">
+            <div class="input-group-prepend">  
+              <button class="btn btn-success" type="button" onClick="populateform(this.form.thelength.value)">Generate Password</button>
+            </div>
+            <input type="text" class="form-control" name="output" placeholder="" aria-label="" aria-describedby="basic-addon1">
+          </div>
+          <hr>
+        <b>Enter password between 8-128</b> <input type="number" name="thelength" size="3" min="8" max="128" value=>
+        <!---<button type="button" class="btn btn-success"onClick="myFunction()">Copy</button>--->
+        </form>
+        </div>
+    </div>
+      
+    
+</body>
+
+</html>
